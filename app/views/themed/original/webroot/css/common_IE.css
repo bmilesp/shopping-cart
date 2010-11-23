@@ -1,0 +1,86 @@
+#content
+{
+  background: #fff;
+  display: inline-block;
+  position: relative;
+  top: -0.1em;
+  width: 100%;
+}
+
+#prod_table h1
+{
+  font-size: x-large;
+  font-weight: bold;
+  color: #666;
+}
+
+#style_menu
+{
+  width: 100%;
+  font-family: sans-serif;
+  color: #999;
+  position:relative;
+  top: 1em;
+  text-align: center;
+}
+
+div.overlay img
+{
+  position: relative;
+  top: 10.6em;
+  left: -6.9em;
+
+  border-top: 1px solid #666;
+  border-left: 1px solid #666;
+
+}
+
+div.color_overlay_swatches
+{
+  position: relative;
+  top: .1em;
+  left: .6em;
+  
+  background: #999;
+
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+  text-align: center;
+
+  border-bottom: 1px solid #666;
+  border-right: 1px solid #666;
+}
+
+div.overlay_swatch_wrapper
+{
+	left:0px; 	
+  top: -445px;
+}
+
+div.overlay_swatch_wrapper .color_overlay_swatches_extra_boarder{
+	top: 0px;
+	left: -0.1em;
+}
+
+div.product_rollover .overlay_stickers{
+	top: -449px;
+	height: 0px;
+	left:0px;
+}
+
+div.overlayAll{
+height:0;
+left:0em;
+position:relative;
+top:-13.33em;
+}
+
+a.swatch_wrapper_link{
+	padding:0;
+	margin:0;
+	border: 0px;
+	color:#FFF;
+}
+

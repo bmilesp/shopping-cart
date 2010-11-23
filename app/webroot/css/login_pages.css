@@ -1,0 +1,117 @@
+.loginPanels{
+	display: block;
+	width: 670px;
+	margin-left: auto ;
+    margin-right: auto ;
+	text-align:left;
+	font: 12px verdana, arial;
+}
+
+.loginPanels label{
+	text-align: left;
+}
+
+.loginPanels .panelTitle{
+	font-size: 180%;
+	font-weight:bold;
+	text-align:center;
+	padding-bottom: 10px;
+	color: #555555;
+}
+
+.loginPanels .label{
+	padding: 10px 0 3px 0;
+}
+
+
+.loginPanels input{
+	width:280px;
+	font-size: 18px;
+	padding: 4px 0;
+}
+
+.loginPanels .yes_no_radios input{
+	float:left;
+	width:10px;
+}
+
+
+.loginPanels .input.submit{
+	width:200px;
+	margin:20px 0;
+	padding:5px 0;
+	text-align:center;
+}
+
+.loginPanels input[type="submit"]{
+	width:280px;
+	margin:5px 0;
+	padding:5px 0;
+}
+
+.loginPanel{
+	float:left;
+	padding:40px 0px 40px 0px;
+	width:220px;
+}
+
+.loginPanelRight{
+	border-left:1px solid #cccccc;
+	min-height:350px;
+	padding:40px 0 20px 60px;
+	margin: 0 0 0 120px;
+}
+
+.loginPanelSingle{
+	margin:40px auto 30px;
+	width:280px;
+}
+
+.errorEmptyRequiredField{
+	color:#ff0000;
+	font-weight:bold;
+}
+
+.multiInputContainer input{
+	width:100%;
+}
+
+.multiInputContainer .input{
+	float:left;
+	width:137px;
+}
+
+.multiInputContainer .input.multiInputLeft{
+	padding-right:6px;
+}
+
+.underMulti{
+	padding-top:60px;
+}
+
+.loginPanels .checkbox{
+	margin-top:5px;
+}
+
+.loginPanels .checkbox input[type=checkbox]{
+	float:left;
+	margin:0 8px 0 0;
+	width:10px;
+}
+
+.loginPanels .checkbox label{
+	width:200px;
+}
+
+.required{
+	font-weight:bold;
+}
+.required label:after
+{
+content: " *";
+}
+
+#UserLoginForm .required label:after
+{
+content: "";
+}

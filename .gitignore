@@ -1,0 +1,12 @@
+#*.tmp*
+#test/*
+#stats/*
+#app/tmp/*
+#source_files/*
+#app/webroot/unique/site.php
+#app/config/core.php
+#app/tests/*
+#app/vendors/simpletest/*
+#cake/console/*
+#source_files/*
+#sources/*

@@ -1,0 +1,18 @@
+div.overlay img
+{
+  position: relative;
+  top: 10.7em;
+  left: -6.9em;
+}
+
+#prod_table h1
+{
+  font-size: x-large;
+  font-weight: bold;
+  color: #666;
+}
+
+#header {
+border-top-left-radius: 10px 10px;
+border-top-right-radius: 10px 10px;
+}

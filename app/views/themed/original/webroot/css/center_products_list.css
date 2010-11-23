@@ -1,0 +1,44 @@
+#content{
+clear:both;
+float:left;
+width:100%;
+}
+
+#content_wrapper{
+		overflow:hidden;
+}
+
+.product_rollover{
+	float:left;
+position:relative;
+right:50%;
+padding-top:13px; 
+padding-right:15px;
+padding-bottom: 0 ;
+padding-left:15px;
+}
+
+#footer{
+	clear:both;
+}
+
+#frame{
+	overflow:hidden;
+}
+
+#products_list{
+	float:left;
+position:relative;
+left:50%;
+
+}
+
+.cushion{
+	padding: 0 12px;
+}
+
+div.center-wrapper{
+			padding: 30px 0 0;
+	position:relative;
+	right:50%;
+}

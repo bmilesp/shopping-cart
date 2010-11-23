@@ -1,0 +1,16 @@
+#menu a{
+color:#FFFFFF;	
+background-color:#B65A19;
+border:1px solid #FFFFFF;
+}
+
+#menu a:hover{
+color:#B65A19;	
+background-color:#FFFFFF;
+border:1px solid #666666;
+}
+
+
+.cushion{
+	padding:30px 0 0 0;
+}

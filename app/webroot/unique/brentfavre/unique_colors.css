@@ -1,0 +1,15 @@
+#menu a{
+color:#FFF;	
+background-color:#16370A;
+border:1px solid #FFFFFF;
+}
+
+#menu a:hover{
+color:#16370A;	
+background-color:#FFFFFF;
+border:1px solid #666666;
+}
+
+.cushion {
+padding:30px 0 0 14px;
+}

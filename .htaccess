@@ -1,0 +1,33 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+	
+   
+   #check if http = http or https
+
+
+   RewriteCond %{HTTPS} =on
+   RewriteRule ^(.+)$ - [env=ps:https]
+   RewriteCond %{HTTPS} !=on
+   RewriteRule ^(.+)$ - [env=ps:http]
+
+   RewriteCond %{HTTP_HOST} !^www\.
+   RewriteCond %{HTTP_HOST} !^localhost
+   RewriteCond %{REQUEST_URI} /$
+   RewriteRule (.*) %{ENV:ps}://www.%{HTTP_HOST}/ [R=301,L]
+
+
+   RewriteCond %{HTTPS} =on
+   RewriteRule ^(.+)$ - [env=ps:https]
+   RewriteCond %{HTTPS} !=on
+   RewriteRule ^(.+)$ - [env=ps:http]
+
+   RewriteCond %{HTTP_HOST} !^www\.
+   RewriteCond %{HTTP_HOST} !^localhost
+   RewriteCond %{REQUEST_URI} !/$
+   RewriteRule (.*) %{ENV:ps}://www.%{HTTP_HOST}%{REQUEST_URI}/ [R=301,L]
+
+
+
+   RewriteRule    ^$ app/webroot/    [L]
+   RewriteRule    (.*) app/webroot/$1 [L]
+</IfModule>

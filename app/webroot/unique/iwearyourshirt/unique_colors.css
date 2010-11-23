@@ -1,0 +1,19 @@
+#menu a{
+color:#FFFFFF;	
+background-color:#339966;
+border:1px solid #FFFFFF;
+}
+
+#menu a:hover{
+color:#339966;	
+background-color:#FFFFFF;
+border:1px solid #666;
+}
+
+#header{
+	height:223px;
+}
+
+#menu{
+	margin-top:151px;
+}

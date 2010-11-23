@@ -1,0 +1,51 @@
+.alternate_image_hover_border{
+	border:none;
+}
+
+#shipping_loading{
+	height:400px;
+}
+
+.sf-menu{
+	display:inline-block;
+	display:inline;
+}
+
+
+.overlay_swatch_wrapper {
+	left:-10px;
+	position:relative;
+	top:-852px;
+}
+
+
+div.product_rollover .overlay_stickers {
+height:200px;
+left:1px;
+position:relative;
+top:-649px;
+width:200px;
+}
+
+.overlay_swatch_wrapper .color_overlay_swatches_extra_boarder {
+    background: none repeat scroll 0 0 transparent;
+    left: 0.6em;
+    margin: 5px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    top: 0.1em;
+    width: 17px;
+	border: none;
+}
+
+.overlay_swatch_wrapper .color_overlay_swatches {
+    background: none repeat scroll 0 0 transparent;
+    border: none;
+    padding: 0;
+    text-align: center;
+    width: 15px;
+    position: relative;
+    top: 0;
+    left: 0;
+}

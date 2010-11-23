@@ -1,0 +1,11 @@
+#menu a{
+color:#FFFFFF;	
+background-color:#333;
+border:1px solid #FFFFFF;
+}
+
+#menu a:hover{
+color:#333;	
+background-color:#FFFFFF;
+border:1px solid #666666;
+}

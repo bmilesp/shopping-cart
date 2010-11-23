@@ -1,0 +1,151 @@
+/* view/elements/product_rollover.ctp */
+.product_display {
+    width: 200px;
+    height: 250px;
+	font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+}
+
+.product_rollover {
+    float: left;
+    padding: 10px 10px;
+}
+
+img.pic_table_img_top {
+		height:200px;
+		width:200px;
+}
+
+img.pic_table_img {
+    border: 1px solid #CCCCCC;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+.product_rollover_overlay_wrapper {
+    display: none;
+}
+
+span.wasPrice{
+	overflow:hidden;
+	float:left;
+}
+
+img.wasPriceSlash{
+height:10px;
+left:104px;
+position:relative;
+top:0;
+width:50px;
+}
+
+/*use in conjunction with .product_display forfixed width and height */
+.base_img_wrapper {
+}
+
+.overlay_img_wrapper {
+    position: relative;
+    top: -250px;
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    filter: alpha(opacity = 0);
+	height:200px;
+}
+
+.overlay_img_wrapper a {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.overlay_img_wrapper img {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #CCCCCC;
+    margin: 0;
+    padding: 0;
+}
+
+.overlay_swatch_wrapper {
+    position: relative;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+	left:-10px;
+	position:relative;
+	top:-652px;
+	width:30px;
+}
+
+.overlay_swatch_wrapper .color_overlay_swatches {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #ccc;
+    padding: 0;
+    text-align: center;
+    width: 15px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.overlay_swatch_wrapper .color_overlay_swatches_extra_boarder {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #FFFFFF;
+    left: 0.6em;
+    margin: 5px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    top: 0.1em;
+    width: 17px;
+	z-index:350;
+}
+
+div.product_rollover .overlay_stickers {
+height:200px;
+left:1px;
+position:relative;
+top:-449px;
+width:200px;
+}
+
+div.product_rollover .overlay_stickers .american_apparel {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    float: right;
+    position: relative;
+    top: 68px;
+    right: 10px;
+}
+
+div.product_pricing{
+cursor:pointer;
+font-size:10px;
+height:45px;
+margin:0 0;
+padding:3px;
+text-align:center;
+overflow:hidden;
+}
+
+div.product_pricing strong{
+	font-size:14px;
+}
+div.product_pricing h5{
+	font-size:8px;
+	font-style:italic;
+	padidng:0;
+	margin:0;
+}
+
+div.product_pricing_info{
+	border: 3px solid #fff;
+}
+
+div.product_pricing_info_hover
+{
+	border: 3px solid #fff;
+	color:#0000bb;
+}

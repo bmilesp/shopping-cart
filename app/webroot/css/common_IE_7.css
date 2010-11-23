@@ -1,0 +1,23 @@
+/* elements/product/spotlight.ctp */
+
+#alternate_images{
+	width:80px;
+}
+
+.alternate_image{
+		margin: 5px 0;	
+}
+
+#main_image_wrapper{
+	width:300px;
+}
+
+/* cart pannel z index IE& bug fix: apply z index to parent element */
+
+#cartPanelWrapper{
+	z-index:1000;
+}
+
+div.envelope{
+	top:-6em;
+}
